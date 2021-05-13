@@ -1,5 +1,6 @@
 :root {
   font: 16px / 1 sans-serif;
+  font-family: 'Verdana';
 }
 
 html {
@@ -9,4 +10,57 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: rgb(250, 251, 252);
+}
+header {
+  display: flex;
+  border: 1px solid rgb(209, 209, 209);
+  justify-content: space-between;
+  height: 63px;
+  background-color: rgb(254, 254, 254);
+  opacity: 80%;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+.header-1 {
+  /* border: solid; */
+  height: 40px;
+  list-style: none;
+  display: flex;
+  padding: 7px;
+  margin-top: 6px;
+}
+.header-2 {
+  /* border: solid; */
+  padding: 10px;
+  list-style: none;
+  display: flex;
+  padding: 7px;
+  margin-top: 6px;
+}
+.header-1 li {
+  padding: 10px;
+  /* border: solid; */
+  text-decoration: none;
+}
+.header-2 li {
+  /* border: solid; */
+  padding: 10px;
+}
+
+.header-1 img {
+  width: 40px;
+  height: 44px;
+  margin-top: -15px;
+}
+a {
+  text-decoration: none;
+  color: rgb(41, 41, 41);
+  font-size: 13px;
+}
+
+a.octodex {
+  color: black;
+  font-weight: bold;
 }
