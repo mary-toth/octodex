@@ -20,7 +20,7 @@ header {
   justify-content: space-between;
   height: 63px;
   background-color: rgb(254, 254, 254);
-  opacity: 85%;
+  opacity: 75%;
   position: fixed;
   width: 100;
   top: 0;
@@ -61,15 +61,15 @@ header {
 }
 a {
   text-decoration: none;
-  color: rgb(31, 31, 31);
-  font-size: 13px;
+  color: rgb(8, 8, 8);
+  font-size: 14px;
 }
 
 a.octodex {
   color: black;
   font-weight: bold;
   margin-left: -20px;
-  font-size: 15px;
+  font-size: 16px;
 }
 a.home {
   color: rgb(77, 77, 77);
@@ -81,7 +81,7 @@ footer {
   width: 100%;
   display: flex;
   color: rgb(77, 77, 77);
-  font-size: 13px;
+  font-size: 14px;
   bottom: 0;
 }
 div.footer {
@@ -101,9 +101,9 @@ section {
   margin-right: 10px;
   justify-content: space-evenly;
 }
-.cat-1 .cat-2 .cat-3 .cat-4 {
+/* .cat-1 .cat-2 .cat-3 .cat-4 .cat-5 .cat-6 .cat-7 .cat-8 .cat-9 {
   flex: 1;
-}
+} */
 
 .cat {
   flex: 1;
@@ -117,6 +117,8 @@ section {
 
 article ul {
   display: flex;
+  margin-top: 6px;
+  margin-bottom: 18px;
   list-style: none;
   justify-content: space-between;
 }
@@ -129,8 +131,21 @@ article li:first-child {
   font-size: 17px;
 }
 img {
-  border-radius: 1em;
+  border-radius: 8px;
 }
 strong {
   font-size: 15px;
+}
+
+@media all and (max-width: 500px) {
+  img.cat {
+    width: 368px;
+    height: 368px;
+  }
+  .github-link {
+    display: none;
+  }
+  .twitter-link {
+    display: none;
+  }
 }
