@@ -137,15 +137,12 @@ strong {
   font-size: 15px;
 }
 
-/*  less than 700px */
 @media all and (max-width: 700px) {
   img.cat {
     width: 368px;
     height: 368px;
   }
 }
-
-/* less than 500px */
 
 @media all and (max-width: 480px) {
   img.cat {
